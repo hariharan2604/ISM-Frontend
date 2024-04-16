@@ -1,0 +1,64 @@
+/* RegisteredIP.css */
+.registered-ip-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.input-container button {
+    background-color: #5C8374;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.status-text {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.ip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.ip-table th,
+.ip-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.ip-table th {
+    background-color: #5C8374;
+    color: white;
+}
+
+.ip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ip-table tr:hover {
+    background-color: #ddd;
+}
